@@ -1,0 +1,129 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #eee;
+  
+  
+  height: 100%;
+  
+}
+a:hover {
+    cursor: pointer;
+}
+
+#headerBlock .navbar{
+    background-color: #fff !important;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3),
+    0 2px 6px 2px rgba(60,64,67,0.15);
+}
+#headerBlock .navbar .navbar-brand img {
+    width: 49px;
+}
+#headerBlock .navbar .navbar-brand{
+    margin-right: 50px;
+}
+#headerBlock .navbar .nav-link {
+    color: #5f6368;
+    font-size: 14px;
+    font-weight: bold;
+}
+#headerBlock nav{
+    padding: 0px 20px;
+}
+#headerBlock nav .nav-link {
+    padding: 15px 20px;
+}
+#headerBlock nav .nav-link:hover{
+    border-bottom: 3px solid #5f6368;
+}
+#headerBlock nav input{
+    padding: 0px 0px 0px 34px;
+    border: none;
+    background-color: #f1f3f4;
+}
+.position-absolute{
+    position: absolute !important;
+    top: 15px;
+    left: 10px;
+    color: #5f6368;
+
+} 
+
+#articlesContent img{
+    width: 100%;
+    height: 150px;
+    border-radius: 2%;
+}
+ul li {
+    list-style: none;
+    /*border-bottom: 1px solid #ccc;*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px;
+    font-size: 14px;
+    color: black;
+
+}
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#sportsSection{
+    border-right: 1px solid #ccc;
+    height: 100%;
+    background: #fff;
+    box-shadow: 1px 1px 3px 1px #ccc;
+
+}
+#articlesContent .enterImg{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 4px;
+}
+#articlesContent .row{
+border-bottom: 1px solid #eee;
+box-sizing: border-box;
+width: unset;
+
+}
+#entertainmenTAllTemplate ul li{
+    border: none;
+}
+.text-muted {
+    font-size: 11px;
+    text-transform: capitalize;
+    padding: 0px 8px;
+}
+
+#covidBlock section{
+    display: flex;
+}
+#covidBlock section div {
+    background: #fff;
+    padding: 7px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px 1px #eee;
+    margin: 4px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+#covidBlock section div h4{ 
+margin: 4px 10px 4px 0px;
+padding: 7px;
+}
+
+#articles nav {
+display: flex;
+height: 69px;
+}
+#HeadlinesSection img{
+height: 500px !important;
+}
+
